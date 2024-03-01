@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		340A8DF22B921668009EDCEB /* Spline3DApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340A8DF12B921668009EDCEB /* Spline3DApp.swift */; };
+		340A8DF42B921668009EDCEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340A8DF32B921668009EDCEB /* ContentView.swift */; };
+		340A8DF62B92166A009EDCEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 340A8DF52B92166A009EDCEB /* Assets.xcassets */; };
+		340A8DFA2B92166A009EDCEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 340A8DF92B92166A009EDCEB /* Preview Assets.xcassets */; };
+		340A8E042B92166A009EDCEB /* Spline3DTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340A8E032B92166A009EDCEB /* Spline3DTests.swift */; };
+		340A8E0E2B92166A009EDCEB /* Spline3DUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340A8E0D2B92166A009EDCEB /* Spline3DUITests.swift */; };
+		340A8E102B92166A009EDCEB /* Spline3DUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340A8E0F2B92166A009EDCEB /* Spline3DUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		340A8E002B92166A009EDCEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 340A8DE62B921668009EDCEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 340A8DED2B921668009EDCEB;
+			remoteInfo = Spline3D;
+		};
+		340A8E0A2B92166A009EDCEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 340A8DE62B921668009EDCEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 340A8DED2B921668009EDCEB;
+			remoteInfo = Spline3D;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		340A8DEE2B921668009EDCEB /* Spline3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spline3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		340A8DF12B921668009EDCEB /* Spline3DApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spline3DApp.swift; sourceTree = "<group>"; };
+		340A8DF32B921668009EDCEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		340A8DF52B92166A009EDCEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		340A8DF72B92166A009EDCEB /* Spline3D.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Spline3D.entitlements; sourceTree = "<group>"; };
+		340A8DF92B92166A009EDCEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		340A8DFF2B92166A009EDCEB /* Spline3DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Spline3DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		340A8E032B92166A009EDCEB /* Spline3DTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spline3DTests.swift; sourceTree = "<group>"; };
+		340A8E092B92166A009EDCEB /* Spline3DUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Spline3DUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		340A8E0D2B92166A009EDCEB /* Spline3DUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spline3DUITests.swift; sourceTree = "<group>"; };
+		340A8E0F2B92166A009EDCEB /* Spline3DUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spline3DUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		340A8DEB2B921668009EDCEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		340A8DFC2B92166A009EDCEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		340A8E062B92166A009EDCEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		340A8DE52B921668009EDCEB = {
+			isa = PBXGroup;
+			children = (
+				340A8DF02B921668009EDCEB /* Spline3D */,
+				340A8E022B92166A009EDCEB /* Spline3DTests */,
+				340A8E0C2B92166A009EDCEB /* Spline3DUITests */,
+				340A8DEF2B921668009EDCEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		340A8DEF2B921668009EDCEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				340A8DEE2B921668009EDCEB /* Spline3D.app */,
+				340A8DFF2B92166A009EDCEB /* Spline3DTests.xctest */,
+				340A8E092B92166A009EDCEB /* Spline3DUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		340A8DF02B921668009EDCEB /* Spline3D */ = {
+			isa = PBXGroup;
+			children = (
+				340A8DF12B921668009EDCEB /* Spline3DApp.swift */,
+				340A8DF32B921668009EDCEB /* ContentView.swift */,
+				340A8DF52B92166A009EDCEB /* Assets.xcassets */,
+				340A8DF72B92166A009EDCEB /* Spline3D.entitlements */,
+				340A8DF82B92166A009EDCEB /* Preview Content */,
+			);
+			path = Spline3D;
+			sourceTree = "<group>";
+		};
+		340A8DF82B92166A009EDCEB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				340A8DF92B92166A009EDCEB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		340A8E022B92166A009EDCEB /* Spline3DTests */ = {
+			isa = PBXGroup;
+			children = (
+				340A8E032B92166A009EDCEB /* Spline3DTests.swift */,
+			);
+			path = Spline3DTests;
+			sourceTree = "<group>";
+		};
+		340A8E0C2B92166A009EDCEB /* Spline3DUITests */ = {
+			isa = PBXGroup;
+			children = (
+				340A8E0D2B92166A009EDCEB /* Spline3DUITests.swift */,
+				340A8E0F2B92166A009EDCEB /* Spline3DUITestsLaunchTests.swift */,
+			);
+			path = Spline3DUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		340A8DED2B921668009EDCEB /* Spline3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 340A8E132B92166A009EDCEB /* Build configuration list for PBXNativeTarget "Spline3D" */;
+			buildPhases = (
+				340A8DEA2B921668009EDCEB /* Sources */,
+				340A8DEB2B921668009EDCEB /* Frameworks */,
+				340A8DEC2B921668009EDCEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spline3D;
+			productName = Spline3D;
+			productReference = 340A8DEE2B921668009EDCEB /* Spline3D.app */;
+			productType = "com.apple.product-type.application";
+		};
+		340A8DFE2B92166A009EDCEB /* Spline3DTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 340A8E162B92166A009EDCEB /* Build configuration list for PBXNativeTarget "Spline3DTests" */;
+			buildPhases = (
+				340A8DFB2B92166A009EDCEB /* Sources */,
+				340A8DFC2B92166A009EDCEB /* Frameworks */,
+				340A8DFD2B92166A009EDCEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				340A8E012B92166A009EDCEB /* PBXTargetDependency */,
+			);
+			name = Spline3DTests;
+			productName = Spline3DTests;
+			productReference = 340A8DFF2B92166A009EDCEB /* Spline3DTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		340A8E082B92166A009EDCEB /* Spline3DUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 340A8E192B92166A009EDCEB /* Build configuration list for PBXNativeTarget "Spline3DUITests" */;
+			buildPhases = (
+				340A8E052B92166A009EDCEB /* Sources */,
+				340A8E062B92166A009EDCEB /* Frameworks */,
+				340A8E072B92166A009EDCEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				340A8E0B2B92166A009EDCEB /* PBXTargetDependency */,
+			);
+			name = Spline3DUITests;
+			productName = Spline3DUITests;
+			productReference = 340A8E092B92166A009EDCEB /* Spline3DUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		340A8DE62B921668009EDCEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					340A8DED2B921668009EDCEB = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					340A8DFE2B92166A009EDCEB = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 340A8DED2B921668009EDCEB;
+					};
+					340A8E082B92166A009EDCEB = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 340A8DED2B921668009EDCEB;
+					};
+				};
+			};
+			buildConfigurationList = 340A8DE92B921668009EDCEB /* Build configuration list for PBXProject "Spline3D" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 340A8DE52B921668009EDCEB;
+			productRefGroup = 340A8DEF2B921668009EDCEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				340A8DED2B921668009EDCEB /* Spline3D */,
+				340A8DFE2B92166A009EDCEB /* Spline3DTests */,
+				340A8E082B92166A009EDCEB /* Spline3DUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		340A8DEC2B921668009EDCEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				340A8DFA2B92166A009EDCEB /* Preview Assets.xcassets in Resources */,
+				340A8DF62B92166A009EDCEB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		340A8DFD2B92166A009EDCEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		340A8E072B92166A009EDCEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		340A8DEA2B921668009EDCEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				340A8DF42B921668009EDCEB /* ContentView.swift in Sources */,
+				340A8DF22B921668009EDCEB /* Spline3DApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		340A8DFB2B92166A009EDCEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				340A8E042B92166A009EDCEB /* Spline3DTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		340A8E052B92166A009EDCEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				340A8E102B92166A009EDCEB /* Spline3DUITestsLaunchTests.swift in Sources */,
+				340A8E0E2B92166A009EDCEB /* Spline3DUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		340A8E012B92166A009EDCEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 340A8DED2B921668009EDCEB /* Spline3D */;
+			targetProxy = 340A8E002B92166A009EDCEB /* PBXContainerItemProxy */;
+		};
+		340A8E0B2B92166A009EDCEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 340A8DED2B921668009EDCEB /* Spline3D */;
+			targetProxy = 340A8E0A2B92166A009EDCEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		340A8E112B92166A009EDCEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		340A8E122B92166A009EDCEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		340A8E142B92166A009EDCEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Spline3D/Spline3D.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spline3D/Preview Content\"";
+				DEVELOPMENT_TEAM = U3CCC9DSJ7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonch.Spline3D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		340A8E152B92166A009EDCEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Spline3D/Spline3D.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spline3D/Preview Content\"";
+				DEVELOPMENT_TEAM = U3CCC9DSJ7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonch.Spline3D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		340A8E172B92166A009EDCEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3CCC9DSJ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonch.Spline3DTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spline3D.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Spline3D";
+			};
+			name = Debug;
+		};
+		340A8E182B92166A009EDCEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3CCC9DSJ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonch.Spline3DTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spline3D.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Spline3D";
+			};
+			name = Release;
+		};
+		340A8E1A2B92166A009EDCEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3CCC9DSJ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonch.Spline3DUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Spline3D;
+			};
+			name = Debug;
+		};
+		340A8E1B2B92166A009EDCEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U3CCC9DSJ7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonch.Spline3DUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Spline3D;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		340A8DE92B921668009EDCEB /* Build configuration list for PBXProject "Spline3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				340A8E112B92166A009EDCEB /* Debug */,
+				340A8E122B92166A009EDCEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		340A8E132B92166A009EDCEB /* Build configuration list for PBXNativeTarget "Spline3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				340A8E142B92166A009EDCEB /* Debug */,
+				340A8E152B92166A009EDCEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		340A8E162B92166A009EDCEB /* Build configuration list for PBXNativeTarget "Spline3DTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				340A8E172B92166A009EDCEB /* Debug */,
+				340A8E182B92166A009EDCEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		340A8E192B92166A009EDCEB /* Build configuration list for PBXNativeTarget "Spline3DUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				340A8E1A2B92166A009EDCEB /* Debug */,
+				340A8E1B2B92166A009EDCEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 340A8DE62B921668009EDCEB /* Project object */;
+}
